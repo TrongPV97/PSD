@@ -312,20 +312,20 @@ img{
 
 }
 .column3{
-	margin-right:  21px;
+	margin-right:  19px;
 }
 .column4{
-	margin-right:  19.5px;
+	margin-right:  19px;
 }
 .column6,.column7{
-	margin-right: 19.5px;
+	margin-right: 19px;
 	position: relative;
 }
 .column6:last-child,.column7:last-child{
 	margin-right: 0px;
 }
 .row2{
-	margin-top: 19.5px;
+	margin-top: 19px;
 	display: flex;
 	justify-content: space-around;
 }

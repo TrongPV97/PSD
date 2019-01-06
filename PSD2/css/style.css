@@ -20,6 +20,9 @@
 	margin: 0 auto;
 
 }
+.memu{
+	display: none;
+}
 .container_h{
 	width: 1176px;
 	margin: 0 auto;
@@ -211,6 +214,9 @@ header{
 	color: #9d9fa2;
 	text-decoration: none;
 }
+.list .container nav ul li a:hover{
+	color: #3885e5;
+}
 .list .container nav ul li:last-child{
 	border: solid 1px #4f5660;
 	padding: 5px 7px 5px 7px;
@@ -340,7 +346,12 @@ width: 49px;
 }
 .column{
 	margin-right: 1em;
+	opacity: 0.3;
 }
+.column:hover{
+	opacity: 1;
+}
+
 .column:last-child{
 	margin-right: 0;
 }

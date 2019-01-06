@@ -493,23 +493,35 @@ footer{
   border-top: solid 1px #d4d9de;
   margin-top: 5.5em;
 }
-@media  (max-width: 1024px) {
+@media  (max-width: 1200px) {
 	#wrapper{
 	max-width: 1024px;
 	margin: 0 auto;
 
+}
+.container_h{
+	max-width: 90%;
+	margin: 0 auto;
+}
+.memu{
+	display: none;
 }
 .logo{
 	font-size: 30px;
   font-family: "Raleway-Medium";
   color: rgb(255, 255, 255);
   line-height: 1.034;
-  margin-left: 120px;
   display: inline-block;
   margin-top: 1.1em;
 }
+.top_header{
+	display: flex;
+	flex-direction: column;
+}
 .top_header_l {
-	margin-left: 320px;
+	display: block;
+	margin: 0 auto;
+
 }
 .top_header_r{
 	margin:0 auto;
@@ -536,7 +548,6 @@ footer{
 }
 .find{
 	background: #fff;
-	height: 42px;
 	width: 539px;
 	border-radius: 4px;
 	margin: 0 auto;
@@ -566,7 +577,7 @@ footer{
 	border: none;
 }
 .btn_find{
-	width: 150px;
+	width: 100px;
 	height: 30.8px;
 	background: #3885e5;
 	border: none;
@@ -649,24 +660,26 @@ footer{
 	max-width: 95%;
 }
 }
-@media  (max-width: 480px) {
+@media  (max-width: 680px) {
 	#wrapper{
 		max-width: 480px;
 	}
-	.top_header_l {
-    margin-left: 20px;
-}
 .top_header_r {
     flex-direction: column;
     justify-content: center;
 
 }
-.top_header_r nav ul {
-    margin-right: 50px;
-    margin-bottom:  10px;
+.memu{
+	display: none;
 }
-.log ul {
-    margin-right: 90px;
+
+.top_header_r nav ul {
+    margin-bottom:  10px;
+    margin-right: 0px;
+
+}
+.find select{
+	width: 84%;
 }
 .top_header_r i {
     display: none;
@@ -682,7 +695,7 @@ footer{
     font-size: 12px;
 }
 .find {
-    height: 200px;
+    height: 120px;
     width: 80%;
     border-radius: 4px;
     margin: 0 auto;
@@ -690,6 +703,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background: #665e57;
 }
 .find .search {
     width: 80%;
@@ -802,6 +816,9 @@ footer {
 .point{
 	display: none;
 }
+.list .container nav{
+	display: none;
+}
 .list .container nav ul li:last-child {
     margin-left: 0em;
     border: none;
@@ -813,6 +830,11 @@ footer {
 }
 .list .container nav ul li:hover{
     border: solid 1px;
+}
+.container a{
+	text-align: center;
+	text-decoration: none;font-size: 30px;
+	display: block;
 }
 }
 

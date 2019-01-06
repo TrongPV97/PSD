@@ -768,7 +768,7 @@ footer{
     padding-right: 0em;
 }
 .info_f {
-    float: right;
+    float: none;
     margin-right: 2em;
     margin-top: 2em;
 }

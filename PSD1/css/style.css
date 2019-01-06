@@ -1,6 +1,6 @@
 *{
 	margin: 0 auto;
-	padding: 0 auto;
+	padding: 0px;
 }
 @font-face {
   font-family: Raleway;
@@ -25,6 +25,7 @@ img{
 }
 #wrapper{
 	max-width:  100%;
+	margin: 0 auto;
 }
 .container{
 	width: 760.5px;

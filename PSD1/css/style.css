@@ -537,7 +537,7 @@ footer .container .column_ft3{
 }
 
 
-@media  (max-width: 990px){
+@media  (max-width: 1000px){
 	#wrapper{
 	max-width:  600px;
 	}
@@ -831,7 +831,7 @@ footer .container .column_ft1 {
 .column1 {
     margin-right: 0px;
 }
-.column2, .column3 {
+.column2, .column3, .column4, .column5 {
 	width: 100%;
 }
 .row2 {

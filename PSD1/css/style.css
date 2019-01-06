@@ -463,7 +463,7 @@ footer .container{
 }
 footer .container .column_ft1{
 	flex: 1;
-	margin-right: 60px;
+	margin-right: 40px;
 
 }
 footer .container .column_ft1:last-child{
@@ -482,7 +482,7 @@ footer .container .column_ft3{
 	margin-right: 50px;
 }
 .mail input{
-	width: 192.2px;
+	width: 209px;
 	height:  27.9px;
 	font-size: 9.1px;
 	padding-left: 14.3px;
@@ -523,9 +523,10 @@ footer .container .column_ft3{
 	padding-bottom: 13.5px;
 }
 .list_icon{
-	margin-top: 23px;
+	margin-top: 7px;
 	display: flex;
-	width: 111.15px;
+	width: 117.15px;
+	margin-left: -5px;
 	float: left;
 }
 .list_icon img{
@@ -801,7 +802,7 @@ footer .container .column_ft1 {
 .find_boat input {
     width: 200px;
     height: 20px;
-    font-size: 9px;
+    font-size: 8px;
     letter-spacing: 40;
     padding-left: 10px;
     text-align: center;

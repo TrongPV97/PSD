@@ -548,10 +548,8 @@ footer .container .column_ft3{
 }
 .container_h{
 	width: 100%;
-}
-.header-r {
-	margin-left: 82px;
-	float: none;
+	display: flex;
+	flex-direction: column;
 }
 .logo{
 	margin-left: 53%;

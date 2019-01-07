@@ -569,7 +569,7 @@ footer .container .column_ft3{
 	font-family: Raleway;
 	font-weight: bold;
 	color: #f9fafe;
-	font-size: 15px;
+	font-size: 12px;
 	line-height: 1;
 	text-transform: uppercase;
 }
@@ -648,12 +648,12 @@ footer .container .column_ft3{
 .stt ul li  {
 	font-family: Raleway;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 11px;
 }
 
 
 .stt-2{
-	font-size: 12px;
+	font-size: 10px;
 	color: #bdbdbd;
 }
 
@@ -796,12 +796,12 @@ footer .container .column_ft1 {
     margin-top: 5px;
 }
 .title_resever p{
-	font-size: 7px;
+	font-size: 6px;
 }
 .find_boat input {
     width: 200px;
     height: 20px;
-    font-size: 8px;
+    font-size: 7px;
     letter-spacing: 40;
     padding-left: 10px;
     text-align: center;

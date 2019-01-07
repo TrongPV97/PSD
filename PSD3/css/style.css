@@ -1,0 +1,48 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+@font-face {
+	font-family:Nunito-Light;
+	src:url(../fonts/Nunito-Light.ttf);
+}
+@media  (max-width: 400px){ 
+
+	#wrapper{
+		max-width: 320px;
+		margin: 0 auto;
+	}
+	.clearfix{
+		clear: both;
+	}
+	.container{
+		width: 311px;
+		margin: 0 auto;
+	}
+	header{
+			background: #000000;
+	}
+	header .container{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+	}
+	.h_l select{
+		color: #aaaaaa;
+		background: #000;
+		border: none;
+		font-family: Nunito-Light;
+		font-size: 10px;
+	}
+	.h_c {
+		color: #fff;
+		font-family: Nunito-Light;
+		font-size: 10px;
+		text-transform: uppercase;
+	}
+
+	.h_r, .com, .fre{
+		display: none;
+	}
+}

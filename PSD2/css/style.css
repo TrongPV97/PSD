@@ -537,6 +537,7 @@ footer{
 .top_header_r{
 	margin:0 auto;
 }
+
 .content_header{
 	margin-top: 150px;
 	text-align: center;
@@ -639,9 +640,8 @@ footer{
 	justify-content: space-between;
 }
 .famous p {
-    padding-left: 5em;
+    padding-left: 2em;
     padding-right: 2em;
-    width: 50%;
     padding-top: 2em;
 }
 .info_f {
@@ -690,7 +690,7 @@ footer{
 
 }
 .find select{
-	width: 84%;
+	width: 85%;
 }
 .top_header_r i {
     display: none;
@@ -701,6 +701,7 @@ footer{
 }
 .content_header h1 {
     font-size: 20px;
+    line-height: 1;
 }
 .content_header h2 {
     font-size: 12px;
@@ -774,7 +775,8 @@ footer{
 .famous p {
     padding-left: 0em;
     margin-right: 0em;
-    width:80%;
+    width:100%;
+    font-size: 13px;
     padding-top: 2em;
     padding-right: 0em;
 }
@@ -846,6 +848,8 @@ footer {
 	text-align: center;
 	text-decoration: none;font-size: 30px;
 	display: block;
+	font-family: Raleway;
+	color: #a1948f;
 }
 }
 
